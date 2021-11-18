@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F78B72D263EEC5E00F4B27A /* DistributionsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F78B72C263EEC5E00F4B27A /* DistributionsApp.swift */; };
+		7F78B731263EEC6000F4B27A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F78B730263EEC6000F4B27A /* Assets.xcassets */; };
+		7F78B734263EEC6000F4B27A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F78B733263EEC6000F4B27A /* Preview Assets.xcassets */; };
+		7F78B73E263EECC700F4B27A /* DistributionEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F78B73D263EECC700F4B27A /* DistributionEnums.swift */; };
+		7F78B74B263EECE000F4B27A /* DiscreteDistributionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F78B740263EECE000F4B27A /* DiscreteDistributionView.swift */; };
+		7F78B74C263EECE000F4B27A /* ExponentialDistributionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F78B742263EECE000F4B27A /* ExponentialDistributionView.swift */; };
+		7F78B74D263EECE000F4B27A /* NormalDistributionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F78B743263EECE000F4B27A /* NormalDistributionView.swift */; };
+		7F78B74E263EECE000F4B27A /* DistributionPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F78B744263EECE000F4B27A /* DistributionPicker.swift */; };
+		7F78B74F263EECE000F4B27A /* ContinuousDistributionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F78B745263EECE000F4B27A /* ContinuousDistributionView.swift */; };
+		7F78B750263EECE000F4B27A /* DistributionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F78B746263EECE000F4B27A /* DistributionsView.swift */; };
+		7F78B751263EECE000F4B27A /* DiscreteUniformDistributionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F78B748263EECE000F4B27A /* DiscreteUniformDistributionView.swift */; };
+		7F78B752263EECE000F4B27A /* PoissonDistributionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F78B749263EECE000F4B27A /* PoissonDistributionView.swift */; };
+		7F78B753263EECE000F4B27A /* BinomialDistributionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F78B74A263EECE000F4B27A /* BinomialDistributionView.swift */; };
+		7F78B756263EED0400F4B27A /* StatisticalSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F78B755263EED0400F4B27A /* StatisticalSwift.framework */; };
+		7F78B757263EED0400F4B27A /* StatisticalSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7F78B755263EED0400F4B27A /* StatisticalSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7F78B75C263EED7D00F4B27A /* ContinuousUniformDistributionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F78B75B263EED7D00F4B27A /* ContinuousUniformDistributionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7F78B758263EED0400F4B27A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7F78B757263EED0400F4B27A /* StatisticalSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7F78B729263EEC5E00F4B27A /* DistributionsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DistributionsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F78B72C263EEC5E00F4B27A /* DistributionsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistributionsApp.swift; sourceTree = "<group>"; };
+		7F78B730263EEC6000F4B27A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F78B733263EEC6000F4B27A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7F78B735263EEC6000F4B27A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F78B736263EEC6000F4B27A /* DistributionsApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DistributionsApp.entitlements; sourceTree = "<group>"; };
+		7F78B73D263EECC700F4B27A /* DistributionEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistributionEnums.swift; sourceTree = "<group>"; };
+		7F78B740263EECE000F4B27A /* DiscreteDistributionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscreteDistributionView.swift; sourceTree = "<group>"; };
+		7F78B742263EECE000F4B27A /* ExponentialDistributionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExponentialDistributionView.swift; sourceTree = "<group>"; };
+		7F78B743263EECE000F4B27A /* NormalDistributionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalDistributionView.swift; sourceTree = "<group>"; };
+		7F78B744263EECE000F4B27A /* DistributionPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistributionPicker.swift; sourceTree = "<group>"; };
+		7F78B745263EECE000F4B27A /* ContinuousDistributionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContinuousDistributionView.swift; sourceTree = "<group>"; };
+		7F78B746263EECE000F4B27A /* DistributionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistributionsView.swift; sourceTree = "<group>"; };
+		7F78B748263EECE000F4B27A /* DiscreteUniformDistributionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscreteUniformDistributionView.swift; sourceTree = "<group>"; };
+		7F78B749263EECE000F4B27A /* PoissonDistributionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoissonDistributionView.swift; sourceTree = "<group>"; };
+		7F78B74A263EECE000F4B27A /* BinomialDistributionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinomialDistributionView.swift; sourceTree = "<group>"; };
+		7F78B755263EED0400F4B27A /* StatisticalSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = StatisticalSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F78B75B263EED7D00F4B27A /* ContinuousUniformDistributionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuousUniformDistributionView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F78B726263EEC5E00F4B27A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F78B756263EED0400F4B27A /* StatisticalSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F78B720263EEC5E00F4B27A = {
+			isa = PBXGroup;
+			children = (
+				7F78B72B263EEC5E00F4B27A /* DistributionsApp */,
+				7F78B72A263EEC5E00F4B27A /* Products */,
+				7F78B754263EED0400F4B27A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7F78B72A263EEC5E00F4B27A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F78B729263EEC5E00F4B27A /* DistributionsApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F78B72B263EEC5E00F4B27A /* DistributionsApp */ = {
+			isa = PBXGroup;
+			children = (
+				7F78B73C263EECC700F4B27A /* Model */,
+				7F78B73F263EECE000F4B27A /* View */,
+				7F78B72C263EEC5E00F4B27A /* DistributionsApp.swift */,
+				7F78B730263EEC6000F4B27A /* Assets.xcassets */,
+				7F78B735263EEC6000F4B27A /* Info.plist */,
+				7F78B736263EEC6000F4B27A /* DistributionsApp.entitlements */,
+				7F78B732263EEC6000F4B27A /* Preview Content */,
+			);
+			path = DistributionsApp;
+			sourceTree = "<group>";
+		};
+		7F78B732263EEC6000F4B27A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7F78B733263EEC6000F4B27A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7F78B73C263EECC700F4B27A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7F78B73D263EECC700F4B27A /* DistributionEnums.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7F78B73F263EECE000F4B27A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7F78B747263EECE000F4B27A /* Discrete Distributions */,
+				7F78B741263EECE000F4B27A /* Continuous Distributions */,
+				7F78B740263EECE000F4B27A /* DiscreteDistributionView.swift */,
+				7F78B744263EECE000F4B27A /* DistributionPicker.swift */,
+				7F78B745263EECE000F4B27A /* ContinuousDistributionView.swift */,
+				7F78B746263EECE000F4B27A /* DistributionsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7F78B741263EECE000F4B27A /* Continuous Distributions */ = {
+			isa = PBXGroup;
+			children = (
+				7F78B742263EECE000F4B27A /* ExponentialDistributionView.swift */,
+				7F78B743263EECE000F4B27A /* NormalDistributionView.swift */,
+				7F78B75B263EED7D00F4B27A /* ContinuousUniformDistributionView.swift */,
+			);
+			path = "Continuous Distributions";
+			sourceTree = "<group>";
+		};
+		7F78B747263EECE000F4B27A /* Discrete Distributions */ = {
+			isa = PBXGroup;
+			children = (
+				7F78B748263EECE000F4B27A /* DiscreteUniformDistributionView.swift */,
+				7F78B749263EECE000F4B27A /* PoissonDistributionView.swift */,
+				7F78B74A263EECE000F4B27A /* BinomialDistributionView.swift */,
+			);
+			path = "Discrete Distributions";
+			sourceTree = "<group>";
+		};
+		7F78B754263EED0400F4B27A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F78B755263EED0400F4B27A /* StatisticalSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F78B728263EEC5E00F4B27A /* DistributionsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F78B739263EEC6000F4B27A /* Build configuration list for PBXNativeTarget "DistributionsApp" */;
+			buildPhases = (
+				7F78B725263EEC5E00F4B27A /* Sources */,
+				7F78B726263EEC5E00F4B27A /* Frameworks */,
+				7F78B727263EEC5E00F4B27A /* Resources */,
+				7F78B758263EED0400F4B27A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DistributionsApp;
+			productName = DistributionsApp;
+			productReference = 7F78B729263EEC5E00F4B27A /* DistributionsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F78B721263EEC5E00F4B27A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					7F78B728263EEC5E00F4B27A = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 7F78B724263EEC5E00F4B27A /* Build configuration list for PBXProject "DistributionsApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F78B720263EEC5E00F4B27A;
+			productRefGroup = 7F78B72A263EEC5E00F4B27A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F78B728263EEC5E00F4B27A /* DistributionsApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F78B727263EEC5E00F4B27A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F78B734263EEC6000F4B27A /* Preview Assets.xcassets in Resources */,
+				7F78B731263EEC6000F4B27A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F78B725263EEC5E00F4B27A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F78B752263EECE000F4B27A /* PoissonDistributionView.swift in Sources */,
+				7F78B750263EECE000F4B27A /* DistributionsView.swift in Sources */,
+				7F78B751263EECE000F4B27A /* DiscreteUniformDistributionView.swift in Sources */,
+				7F78B74F263EECE000F4B27A /* ContinuousDistributionView.swift in Sources */,
+				7F78B74B263EECE000F4B27A /* DiscreteDistributionView.swift in Sources */,
+				7F78B753263EECE000F4B27A /* BinomialDistributionView.swift in Sources */,
+				7F78B74D263EECE000F4B27A /* NormalDistributionView.swift in Sources */,
+				7F78B73E263EECC700F4B27A /* DistributionEnums.swift in Sources */,
+				7F78B74E263EECE000F4B27A /* DistributionPicker.swift in Sources */,
+				7F78B74C263EECE000F4B27A /* ExponentialDistributionView.swift in Sources */,
+				7F78B72D263EEC5E00F4B27A /* DistributionsApp.swift in Sources */,
+				7F78B75C263EED7D00F4B27A /* ContinuousUniformDistributionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7F78B737263EEC6000F4B27A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F78B738263EEC6000F4B27A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7F78B73A263EEC6000F4B27A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DistributionsApp/DistributionsApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"DistributionsApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DistributionsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.applyn.DistributionsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7F78B73B263EEC6000F4B27A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DistributionsApp/DistributionsApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"DistributionsApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DistributionsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.applyn.DistributionsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F78B724263EEC5E00F4B27A /* Build configuration list for PBXProject "DistributionsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F78B737263EEC6000F4B27A /* Debug */,
+				7F78B738263EEC6000F4B27A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F78B739263EEC6000F4B27A /* Build configuration list for PBXNativeTarget "DistributionsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F78B73A263EEC6000F4B27A /* Debug */,
+				7F78B73B263EEC6000F4B27A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F78B721263EEC5E00F4B27A /* Project object */;
+}

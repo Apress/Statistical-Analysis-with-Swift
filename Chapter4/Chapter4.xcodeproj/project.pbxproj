@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F3E9AF4267283EC00190354 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3E9AF3267283EC00190354 /* main.swift */; };
+		7F3E9AFC2672841C00190354 /* StatisticalSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F3E9AFB2672841C00190354 /* StatisticalSwift.framework */; };
+		7F3E9AFD2672841C00190354 /* StatisticalSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7F3E9AFB2672841C00190354 /* StatisticalSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7F4B6899267A5ADE00167B32 /* MultipleLinearRegressionExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4B6898267A5ADE00167B32 /* MultipleLinearRegressionExample.swift */; };
+		7F4B689B267A5B8800167B32 /* MultipleLinearRegression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4B689A267A5B8800167B32 /* MultipleLinearRegression.swift */; };
+		7FC57212268A39EE006600BC /* HousePricePredictions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC57211268A39EE006600BC /* HousePricePredictions.swift */; };
+		7FFB988526790D2F00A584F5 /* SimpleLinearRegressionExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB988426790D2F00A584F5 /* SimpleLinearRegressionExample.swift */; };
+		7FFB988726791B0100A584F5 /* SimpleLinearRegression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB988626791B0100A584F5 /* SimpleLinearRegression.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7F3E9AEE267283EC00190354 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		7F3E9AFE2672841C00190354 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7F3E9AFD2672841C00190354 /* StatisticalSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7F3E9AF0267283EC00190354 /* Chapter4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Chapter4; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F3E9AF3267283EC00190354 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		7F3E9AFB2672841C00190354 /* StatisticalSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = StatisticalSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F4B6898267A5ADE00167B32 /* MultipleLinearRegressionExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleLinearRegressionExample.swift; sourceTree = "<group>"; };
+		7F4B689A267A5B8800167B32 /* MultipleLinearRegression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleLinearRegression.swift; sourceTree = "<group>"; };
+		7FC57211268A39EE006600BC /* HousePricePredictions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousePricePredictions.swift; sourceTree = "<group>"; };
+		7FFB988426790D2F00A584F5 /* SimpleLinearRegressionExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleLinearRegressionExample.swift; sourceTree = "<group>"; };
+		7FFB988626791B0100A584F5 /* SimpleLinearRegression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleLinearRegression.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F3E9AED267283EC00190354 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F3E9AFC2672841C00190354 /* StatisticalSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F3E9AE7267283EC00190354 = {
+			isa = PBXGroup;
+			children = (
+				7F3E9AF2267283EC00190354 /* Chapter4 */,
+				7F3E9AF1267283EC00190354 /* Products */,
+				7F3E9AFA2672841C00190354 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7F3E9AF1267283EC00190354 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F3E9AF0267283EC00190354 /* Chapter4 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F3E9AF2267283EC00190354 /* Chapter4 */ = {
+			isa = PBXGroup;
+			children = (
+				7F3E9AF3267283EC00190354 /* main.swift */,
+				7FFB988426790D2F00A584F5 /* SimpleLinearRegressionExample.swift */,
+				7FFB988626791B0100A584F5 /* SimpleLinearRegression.swift */,
+				7F4B6898267A5ADE00167B32 /* MultipleLinearRegressionExample.swift */,
+				7F4B689A267A5B8800167B32 /* MultipleLinearRegression.swift */,
+				7FC57211268A39EE006600BC /* HousePricePredictions.swift */,
+			);
+			path = Chapter4;
+			sourceTree = "<group>";
+		};
+		7F3E9AFA2672841C00190354 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F3E9AFB2672841C00190354 /* StatisticalSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F3E9AEF267283EC00190354 /* Chapter4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F3E9AF7267283EC00190354 /* Build configuration list for PBXNativeTarget "Chapter4" */;
+			buildPhases = (
+				7F3E9AEC267283EC00190354 /* Sources */,
+				7F3E9AED267283EC00190354 /* Frameworks */,
+				7F3E9AEE267283EC00190354 /* CopyFiles */,
+				7F3E9AFE2672841C00190354 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chapter4;
+			productName = Chapter4;
+			productReference = 7F3E9AF0267283EC00190354 /* Chapter4 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F3E9AE8267283EC00190354 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					7F3E9AEF267283EC00190354 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 7F3E9AEB267283EC00190354 /* Build configuration list for PBXProject "Chapter4" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F3E9AE7267283EC00190354;
+			productRefGroup = 7F3E9AF1267283EC00190354 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F3E9AEF267283EC00190354 /* Chapter4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F3E9AEC267283EC00190354 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4B6899267A5ADE00167B32 /* MultipleLinearRegressionExample.swift in Sources */,
+				7F3E9AF4267283EC00190354 /* main.swift in Sources */,
+				7FFB988726791B0100A584F5 /* SimpleLinearRegression.swift in Sources */,
+				7F4B689B267A5B8800167B32 /* MultipleLinearRegression.swift in Sources */,
+				7FFB988526790D2F00A584F5 /* SimpleLinearRegressionExample.swift in Sources */,
+				7FC57212268A39EE006600BC /* HousePricePredictions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7F3E9AF5267283EC00190354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F3E9AF6267283EC00190354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7F3E9AF8267283EC00190354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7F3E9AF9267283EC00190354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F3E9AEB267283EC00190354 /* Build configuration list for PBXProject "Chapter4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F3E9AF5267283EC00190354 /* Debug */,
+				7F3E9AF6267283EC00190354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F3E9AF7267283EC00190354 /* Build configuration list for PBXNativeTarget "Chapter4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F3E9AF8267283EC00190354 /* Debug */,
+				7F3E9AF9267283EC00190354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F3E9AE8267283EC00190354 /* Project object */;
+}
