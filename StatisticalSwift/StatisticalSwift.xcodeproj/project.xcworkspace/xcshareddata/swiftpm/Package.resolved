@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CodableCSV",
+        "repositoryURL": "git@github.com:dehesa/CodableCSV.git",
+        "state": {
+          "branch": null,
+          "revision": "82ee81e7cdb0700f1d6574dbec314872dce5003e",
+          "version": "0.6.6"
+        }
+      },
+      {
+        "package": "StatKit",
+        "repositoryURL": "git@github.com:JimmyMAndersson/StatKit.git",
+        "state": {
+          "branch": null,
+          "revision": "466012616c5acbfa786cc9186d4b46ccc1b18c6a",
+          "version": "0.3.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
