@@ -1,6 +1,6 @@
 import StatisticalSwift
 import SwiftUI
-import Charts
+import DGCharts
 import StatKit
 
 internal struct DiscreteUniformDistributionView: View {

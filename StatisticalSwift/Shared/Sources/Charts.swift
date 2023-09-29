@@ -1,5 +1,5 @@
 import SwiftUI
-import Charts
+import DGCharts
 import Cocoa
 
 private let chartColor = NSColor(

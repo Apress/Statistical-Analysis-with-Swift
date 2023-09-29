@@ -1,7 +1,7 @@
 import SwiftUI
 import StatKit
 import StatisticalSwift
-import Charts
+import DGCharts
 
 struct DistributionOfSampleMeans: View {
   private let data: [BarChartDataEntry]

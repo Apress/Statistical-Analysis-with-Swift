@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,9 +16,9 @@
 		7F4B6895267A59F100167B32 /* multiple-linear-regression.csv in Resources */ = {isa = PBXBuildFile; fileRef = 7F4B6894267A59F100167B32 /* multiple-linear-regression.csv */; };
 		7F4B6897267A5A7400167B32 /* Point3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4B6896267A5A7400167B32 /* Point3D.swift */; };
 		7F84465026ADAE620047C291 /* huffman-compression.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7F84464F26ADAE620047C291 /* huffman-compression.txt */; };
-		7F9BED1A263465520068898B /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 7F9BED19263465520068898B /* Charts */; };
 		7F9DE8B92604C0460091EBED /* StatKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7F9DE8B82604C0460091EBED /* StatKit */; };
 		7F9DE8BB2604C0460091EBED /* CodableCSV in Frameworks */ = {isa = PBXBuildFile; productRef = 7F9DE8BA2604C0460091EBED /* CodableCSV */; };
+		7FC645222AC7813000D068FC /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = 7FC645212AC7813000D068FC /* DGCharts */; };
 		7FD54DBD26891DEB000B0898 /* house-sale-data.csv in Resources */ = {isa = PBXBuildFile; fileRef = 7FD54DBC26891DEB000B0898 /* house-sale-data.csv */; };
 		7FD8D4F82695765600CCBB98 /* Charts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD8D4F72695765500CCBB98 /* Charts.swift */; };
 		7FFB988126790B1900A584F5 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB988026790B1900A584F5 /* Point.swift */; };
@@ -49,7 +49,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F9DE8BB2604C0460091EBED /* CodableCSV in Frameworks */,
-				7F9BED1A263465520068898B /* Charts in Frameworks */,
+				7FC645222AC7813000D068FC /* DGCharts in Frameworks */,
 				7F9DE8B92604C0460091EBED /* StatKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,7 +157,7 @@
 			packageProductDependencies = (
 				7F9DE8B82604C0460091EBED /* StatKit */,
 				7F9DE8BA2604C0460091EBED /* CodableCSV */,
-				7F9BED19263465520068898B /* Charts */,
+				7FC645212AC7813000D068FC /* DGCharts */,
 			);
 			productName = StatisticalSwift;
 			productReference = 7F0B3D582604BFF1006E514F /* StatisticalSwift.framework */;
@@ -446,17 +446,12 @@
 			repositoryURL = "git@github.com:danielgindi/Charts.git";
 			requirement = {
 				kind = exactVersion;
-				version = 4.0.1;
+				version = 5.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		7F9BED19263465520068898B /* Charts */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7F9BED18263465520068898B /* XCRemoteSwiftPackageReference "Charts" */;
-			productName = Charts;
-		};
 		7F9DE8B82604C0460091EBED /* StatKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 7F0B3CD32604B74D006E514F /* XCRemoteSwiftPackageReference "StatKit" */;
@@ -466,6 +461,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7F0B3CD72604B772006E514F /* XCRemoteSwiftPackageReference "CodableCSV" */;
 			productName = CodableCSV;
+		};
+		7FC645212AC7813000D068FC /* DGCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F9BED18263465520068898B /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGCharts;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
